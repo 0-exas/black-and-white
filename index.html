@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BLACK &amp; WHITE — Welcome to Our Website!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+  <header class="masthead" id="home">
+    <img class="banner" src="assets/banner.png" alt="Black and white ocean waves and clouds">
+    <a class="brand" href="#home">BLACK &amp; <span>WHITE</span></a>
+    <p class="slogan">Company Slogan Goes Here</p>
+  </header>
+  <nav aria-label="Main navigation"><a class="active" href="#home">Home</a><a href="#templates">Blog</a><a href="#flash">Gallery</a><a href="#welcome">About</a><a href="#footer">Contact</a></nav>
+  <div class="columns">
+    <aside>
+      <section class="login">
+        <h2 class="metal-heading"><button class="metal-button" type="button">Customer Login</button></h2>
+        <form id="login-form">
+          <label for="login-name">Login Name:</label><input id="login-name" name="username" autocomplete="off" required>
+          <label for="password">Password:</label><input id="password" name="password" type="password" autocomplete="off" required>
+          <button class="text-button" type="submit">Login</button>
+          <a href="#password-help" id="forgot">Forgot your password?</a>
+          <p class="form-status" id="login-status" role="status" hidden></p>
+        </form>
+      </section>
+      <section class="news" id="news">
+        <h2 class="metal-heading"><button class="metal-button" type="button">Company News</button></h2>
+        <div class="news-list">
+          <article><h3>June 23, 2011</h3><a href="#templates">Tempus in lacus. Duis<br>tempor posuere diam.<br>Suspendisse vel tellus quis<br>nunc malesuada porta.</a></article>
+          <article><h3>March 4, 2011</h3><a href="#templates">Nulla id magna sed dolor<br>sollicitudin laoreet. tempus in.<br>lacus. Duis tempor posuere<br>diam.</a></article>
+          <article><h3>February 18, 2011</h3><a href="#flash">Lorem ipsum dolor sit amet,<br>consectetuer adipiscing elit.<br>—</a></article>
+          <article><h3>February 12, 2011</h3><a href="#flash">Sed dolor sollicitudin laoreet.<br>tempus in lacus. Duis tempor<br>posuere diam. Suspendisse</a></article>
+          <article><h3>February 1, 2011</h3><a href="#welcome">Ipsum dolor sit amet,<br>consectetuer adipiscing elit.<br>in nec —</a></article>
+        </div>
+      </section>
+    </aside>
+    <main>
+      <h1 id="welcome">Welcome to Our Website!</h1>
+      <article class="post post-first">
+        <h2>METAMORPHOSIS DESIGN</h2>
+        <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+        <div class="metadata"><a href="#comments" data-comments="2">Comments(2)</a><span>21.02.</span></div>
+      </article>
+      <article class="post" id="templates">
+        <h2>FREE WEBSITE TEMPLATES</h2>
+        <p>Sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna erat</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+        <div class="metadata"><a href="#comments" data-comments="8">Comments(8)</a><span>13.46.</span></div>
+      </article>
+      <article class="post" id="flash">
+        <h2>FLASH TEMPLATES</h2>
+        <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+        <div class="metadata"><a href="#comments" data-comments="2">Comments(2)</a><span>21.02.</span></div>
+      </article>
+    </main>
+  </div>
+  <footer id="footer"><div>Copyright : 2011. Flash Templates</div><a href="#privacy" data-info="Privacy Policy">Privacy Policy</a> | <a href="#terms" data-info="Terms of Use">Terms of Use</a> | <a href="#xhtml" data-info="XHTML">XHTML</a> | <a href="#css" data-info="CSS">CSS</a></footer>
+</div>
+<dialog id="info-dialog"><h2 id="dialog-title"></h2><p id="dialog-message"></p><button id="close-dialog">Close</button></dialog>
+<script src="script.js"></script>
+</body>
+</html>
